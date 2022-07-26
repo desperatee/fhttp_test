@@ -1,7 +1,7 @@
 package http_test
 
 import (
-	tls "github.com/Carcraftz/utls"
+	tls "github.com/desperatee/utls"
 	"crypto/x509"
 	"encoding/json"
 	"flag"
