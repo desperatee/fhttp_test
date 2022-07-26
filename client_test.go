@@ -9,7 +9,7 @@ package http_test
 import (
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
+	tls "github.com/desperatee/utls"
 	"encoding/base64"
 	"errors"
 	"fmt"
