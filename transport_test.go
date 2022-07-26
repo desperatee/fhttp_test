@@ -15,7 +15,6 @@ import (
 	"compress/gzip"
 	"context"
 	"crypto/rand"
-	tls "github.com/desperatee/utls"
 	"crypto/x509"
 	"encoding/binary"
 	"errors"
@@ -38,12 +37,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httptrace"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/nettrace"
+	tls "github.com/desperatee/utls"
+
+	. "github.com/desperatee/fhttp"
+	"github.com/desperatee/fhttp/httptest"
+	"github.com/desperatee/fhttp/httptrace"
+	"github.com/desperatee/fhttp/httputil"
+	"github.com/desperatee/fhttp/internal"
+	"github.com/desperatee/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

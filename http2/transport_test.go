@@ -8,7 +8,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	tls "github.com/desperatee/utls"
 	"crypto/x509"
 	"encoding/pem"
 	"errors"
@@ -32,10 +31,12 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/http2/hpack"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httptrace"
+	tls "github.com/desperatee/utls"
+
+	http "github.com/desperatee/fhttp"
+	"github.com/desperatee/fhttp/http2/hpack"
+	"github.com/desperatee/fhttp/httptest"
+	"github.com/desperatee/fhttp/httptrace"
 )
 
 var (

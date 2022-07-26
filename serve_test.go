@@ -12,7 +12,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/desperatee/utls"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -36,11 +35,13 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/testenv"
+	tls "github.com/desperatee/utls"
+
+	. "github.com/desperatee/fhttp"
+	"github.com/desperatee/fhttp/httptest"
+	"github.com/desperatee/fhttp/httputil"
+	"github.com/desperatee/fhttp/internal"
+	"github.com/desperatee/fhttp/internal/testenv"
 )
 
 type dummyAddr string

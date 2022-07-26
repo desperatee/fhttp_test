@@ -9,7 +9,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/desperatee/utls"
 	"errors"
 	"flag"
 	"fmt"
@@ -28,8 +27,10 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
+	tls "github.com/desperatee/utls"
+
+	http "github.com/desperatee/fhttp"
+	"github.com/desperatee/fhttp/httptest"
 
 	"golang.org/x/net/http2/hpack"
 )

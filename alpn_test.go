@@ -7,15 +7,16 @@ package http_test
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/desperatee/utls"
 	"crypto/x509"
 	"fmt"
 	"io"
 	"strings"
 	"testing"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
+	tls "github.com/desperatee/utls"
+
+	. "github.com/desperatee/fhttp"
+	"github.com/desperatee/fhttp/httptest"
 )
 
 func TestNextProtoUpgrade(t *testing.T) {

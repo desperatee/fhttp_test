@@ -2,13 +2,9 @@ package http2_test
 
 import (
 	"bytes"
-	tls "github.com/desperatee/utls"
 	"crypto/x509"
 	"errors"
 	"fmt"
-	"github.com/Carcraftz/fhttp/cookiejar"
-	"github.com/Carcraftz/fhttp/httptest"
-	"golang.org/x/net/publicsuffix"
 	"log"
 	ghttp "net/http"
 	"net/url"
@@ -16,8 +12,13 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/http2"
+	"github.com/desperatee/fhttp/cookiejar"
+	"github.com/desperatee/fhttp/httptest"
+	tls "github.com/desperatee/utls"
+	"golang.org/x/net/publicsuffix"
+
+	http "github.com/desperatee/fhttp"
+	"github.com/desperatee/fhttp/http2"
 )
 
 // Tests if connection settings are written correctly
