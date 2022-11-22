@@ -10,7 +10,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	tls "github.com/desperatee/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -29,6 +28,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	tls "github.com/refraction-networking/utls"
 
 	"golang.org/x/net/http/httpguts"
 )

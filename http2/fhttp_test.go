@@ -14,7 +14,7 @@ import (
 
 	"github.com/desperatee/fhttp/cookiejar"
 	"github.com/desperatee/fhttp/httptest"
-	tls "github.com/desperatee/utls"
+	tls "github.com/refraction-networking/utls"
 	"golang.org/x/net/publicsuffix"
 
 	http "github.com/desperatee/fhttp"
