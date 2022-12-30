@@ -1,4 +1,4 @@
-module github.com/desperatee/fhttp
+module github.com/desperatee/fhttp_test
 
 go 1.16
 

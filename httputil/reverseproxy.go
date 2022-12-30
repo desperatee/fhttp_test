@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/desperatee/fhttp"
+	http "github.com/desperatee/fhttp_test"
 
 	"golang.org/x/net/http/httpguts"
 )

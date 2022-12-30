@@ -37,11 +37,11 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	. "github.com/desperatee/fhttp"
-	"github.com/desperatee/fhttp/httptest"
-	"github.com/desperatee/fhttp/httputil"
-	"github.com/desperatee/fhttp/internal"
-	"github.com/desperatee/fhttp/internal/testenv"
+	. "github.com/desperatee/fhttp_test"
+	"github.com/desperatee/fhttp_test/httptest"
+	"github.com/desperatee/fhttp_test/httputil"
+	"github.com/desperatee/fhttp_test/internal"
+	"github.com/desperatee/fhttp_test/internal/testenv"
 )
 
 type dummyAddr string
@@ -5028,10 +5028,11 @@ func benchmarkClientServerParallel(b *testing.B, parallelism int, useTLS bool) {
 // The client code runs in a subprocess.
 //
 // For use like:
-//   $ go test -c
-//   $ ./http.test -test.run=XX -test.bench=BenchmarkServer -test.benchtime=15s -test.cpuprofile=http.prof
-//   $ go tool pprof http.test http.prof
-//   (pprof) web
+//
+//	$ go test -c
+//	$ ./http.test -test.run=XX -test.bench=BenchmarkServer -test.benchtime=15s -test.cpuprofile=http.prof
+//	$ go tool pprof http.test http.prof
+//	(pprof) web
 func BenchmarkServer(b *testing.B) {
 	b.ReportAllocs()
 	// Child process mode;

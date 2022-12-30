@@ -12,7 +12,7 @@ import (
 	"os"
 	"os/signal"
 
-	http "github.com/desperatee/fhttp"
+	http "github.com/desperatee/fhttp_test"
 )
 
 func ExampleHijacker() {

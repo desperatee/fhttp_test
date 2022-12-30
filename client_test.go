@@ -26,9 +26,9 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	. "github.com/desperatee/fhttp"
-	"github.com/desperatee/fhttp/cookiejar"
-	"github.com/desperatee/fhttp/httptest"
+	. "github.com/desperatee/fhttp_test"
+	"github.com/desperatee/fhttp_test/cookiejar"
+	"github.com/desperatee/fhttp_test/httptest"
 )
 
 var robotsTxtHandler = HandlerFunc(func(w ResponseWriter, r *Request) {

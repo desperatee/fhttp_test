@@ -50,8 +50,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/desperatee/fhttp/http2/hpack"
-	"github.com/desperatee/fhttp/httptrace"
+	"github.com/desperatee/fhttp_test/http2/hpack"
+	"github.com/desperatee/fhttp_test/httptrace"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

@@ -12,13 +12,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/desperatee/fhttp/cookiejar"
-	"github.com/desperatee/fhttp/httptest"
+	"github.com/desperatee/fhttp_test/cookiejar"
+	"github.com/desperatee/fhttp_test/httptest"
 	tls "github.com/refraction-networking/utls"
 	"golang.org/x/net/publicsuffix"
 
-	http "github.com/desperatee/fhttp"
-	"github.com/desperatee/fhttp/http2"
+	http "github.com/desperatee/fhttp_test"
+	"github.com/desperatee/fhttp_test/http2"
 )
 
 // Tests if connection settings are written correctly

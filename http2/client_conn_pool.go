@@ -11,7 +11,7 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	http "github.com/desperatee/fhttp"
+	http "github.com/desperatee/fhttp_test"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

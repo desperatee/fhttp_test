@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/desperatee/fhttp"
+	http "github.com/desperatee/fhttp_test"
 )
 
 func TestRequest(t *testing.T) {

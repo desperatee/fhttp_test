@@ -10,8 +10,8 @@ import (
 	"log"
 	"net/url"
 
-	http "github.com/desperatee/fhttp"
-	"github.com/desperatee/fhttp/http2/hpack"
+	http "github.com/desperatee/fhttp_test"
+	"github.com/desperatee/fhttp_test/http2/hpack"
 
 	"golang.org/x/net/http/httpguts"
 )
